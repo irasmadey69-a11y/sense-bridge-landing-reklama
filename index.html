@@ -1,238 +1,44 @@
 <!doctype html>
 <html lang="pl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sense Bridge — zrozum pismo, zanim zdecydujesz</title>
-  <meta name="description" content="Sense Bridge analizuje pisma urzędowe w obcych językach. Dostajesz sens, ryzyka, konsekwencje i neutralne warianty odpowiedzi — bez porad i bez presji." />
-  <meta name="theme-color" content="#0E2A47">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sense Bridge</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg" aria-hidden="true">
-    <span class="blob b1"></span>
-    <span class="blob b2"></span>
-    <span class="blob b3"></span>
-  </div>
 
-  <header class="top">
-    <div class="topInner">
-      <a class="brand" href="#" aria-label="Sense Bridge">
-        <img class="logo" src="logo2.png" alt="Sense Bridge logo">
-        <div class="brandText">
-          <div class="brandName">Sense Bridge</div>
-          <div class="brandTag" data-i18n="tagline">Zrozum pismo, zanim cokolwiek zdecydujesz.</div>
-        </div>
-      </a>
-
-      <div class="rightTop">
-        <nav class="lang" aria-label="Language selector">
-          <button class="langBtn isActive" data-lang="pl" type="button">PL</button>
-          <button class="langBtn" data-lang="de" type="button">DE</button>
-          <button class="langBtn" data-lang="nl" type="button">NL</button>
-          <button class="langBtn" data-lang="en" type="button">EN</button>
-        </nav>
-
-        <a class="btn btnGhost" href="https://sense-bridge-production.netlify.app/" data-i18n="openAppTop">Otwórz aplikację</a>
+<main class="page">
+  <section class="hero">
+    <div class="brand">
+      <img src="./logo2.png" alt="Sense Bridge" class="logo">
+      <div>
+        <h1>Sense Bridge</h1>
+        <p> jedno pismo • jasna odpowiedź</p>
       </div>
     </div>
-  </header>
 
-  <main class="wrap">
-    <section class="hero">
-      <div class="heroLeft">
-        <h1 data-i18n="heroH1">Zrozum sens pisma urzędowego w 30 sekund.</h1>
-        <p class="lead" data-i18n="heroLead">
-          Sense Bridge analizuje pisma urzędowe w obcych językach i pokazuje: sens, ryzyka, konsekwencje i neutralne warianty odpowiedzi — bez porad i bez presji.
-        </p>
+    <h2>Pismo z urzędu w obcym języku?</h2>
 
-        <div class="ctaRow">
-          <a class="btn btnMain" href="https://sense-bridge-production.netlify.app/" data-i18n="ctaOpen">Otwórz Sense Bridge</a>
-          <a class="btn btnGhost" href="#how" data-i18n="ctaHow">Zobacz jak działa</a>
-        </div>
+    <p class="lead">
+      Zrozum w 30 sekund: co urząd chce, jakie masz ryzyko i co możesz odpisać.
+    </p>
 
-        <div class="chips">
-          <div class="chip" data-i18n="chip1">Bez porad i nacisku</div>
-          <div class="chip" data-i18n="chip2">Bez zapisywania pism na stronie</div>
-          <div class="chip" data-i18n="chip3">Ty decydujesz — nie system</div>
-        </div>
+    <div class="langs">
+  <span>PL</span><span>NL</span><span>EN</span><span>DE</span>
+  <span>FR</span><span>IT</span><span>ES</span><span>PT</span>
+</div>
 
-        <div class="trust">
-          <div class="trustRow">
-            <span class="dot ok"></span>
-            <span data-i18n="trust1">Nie zapisujemy Twojego pisma na landing page.</span>
-          </div>
-          <div class="trustRow">
-            <span class="dot ok"></span>
-            <span data-i18n="trust2">To narzędzie do zrozumienia — nie porada prawna.</span>
-          </div>
-          <div class="trustRow">
-            <span class="dot ok"></span>
-            <span data-i18n="trust3">Działa na telefonie. Wklejasz tekst. Dostajesz jasność.</span>
-          </div>
-        </div>
-      </div>
+    <a class="btn" href="https://sense-bridge-production.netlify.app/">
+      Otwórz aplikację
+    </a>
 
-      <div class="heroRight">
-        <div class="card glass">
-          <div class="cardTitle" data-i18n="cardTitle">Co dostajesz?</div>
+    <p class="small">
+      Bez porad prawnych. Bez presji. Bez zgadywania.
+    </p>
+  </section>
+</main>
 
-          <div class="steps">
-            <div class="step">
-              <div class="num">1</div>
-              <div class="txt">
-                <div class="st" data-i18n="s1t">Sens pisma</div>
-                <div class="sd" data-i18n="s1d">O co chodzi, czego urząd chce i do kiedy.</div>
-              </div>
-            </div>
-
-            <div class="step">
-              <div class="num">2</div>
-              <div class="txt">
-                <div class="st" data-i18n="s2t">Ryzyka i konsekwencje</div>
-                <div class="sd" data-i18n="s2d">Co się stanie, jeśli zignorujesz / jeśli odpowiesz.</div>
-              </div>
-            </div>
-
-            <div class="step">
-              <div class="num">3</div>
-              <div class="txt">
-                <div class="st" data-i18n="s3t">Neutralne warianty odpowiedzi</div>
-                <div class="sd" data-i18n="s3d">Szkice odpowiedzi bez sugerowania decyzji.</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="okLine">
-            <span class="okDot">✓</span>
-            <span data-i18n="okLine">Ma dać spokój i jasność — nie presję.</span>
-          </div>
-        </div>
-
-        <div class="miniRow">
-          <div class="mini glass">
-            <div class="miniTop">
-              <span class="ico">🌍</span>
-              <span class="miniT" data-i18n="mini1t">Dla ludzi “pomiędzy”</span>
-            </div>
-            <div class="miniD" data-i18n="mini1d">Gdy Twoje życie jest w PL, a pismo w NL/DE/EN.</div>
-          </div>
-
-          <div class="mini glass">
-            <div class="miniTop">
-              <span class="ico">🧾</span>
-              <span class="miniT" data-i18n="mini2t">Urzędy, banki, ubezpieczenia</span>
-            </div>
-            <div class="miniD" data-i18n="mini2d">Listy, e‑maile, PDF (tekst) — cokolwiek.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="how" class="section">
-      <h2 data-i18n="howH2">Jak to działa?</h2>
-
-      <div class="grid3">
-        <div class="tile glass">
-          <div class="tileNum">1</div>
-          <div class="tileT" data-i18n="h1t">Wklejasz treść pisma</div>
-          <div class="tileD" data-i18n="h1d">Mail, PDF (tekst), list z urzędu — co masz.</div>
-        </div>
-
-        <div class="tile glass">
-          <div class="tileNum">2</div>
-          <div class="tileT" data-i18n="h2t">Wybierasz język</div>
-          <div class="tileD" data-i18n="h2d">Wynik pokażemy w Twoim języku (PL/DE/NL/EN).</div>
-        </div>
-
-        <div class="tile glass">
-          <div class="tileNum">3</div>
-          <div class="tileT" data-i18n="h3t">Dostajesz “wynik mostu”</div>
-          <div class="tileD" data-i18n="h3d">Sens + ryzyka + neutralne odpowiedzi. Bez porad.</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="split">
-        <div class="glass pad">
-          <h2 data-i18n="noH2">Czego Sense Bridge nie robi</h2>
-          <ul class="list">
-            <li data-i18n="no1">Nie doradza, co masz zrobić.</li>
-            <li data-i18n="no2">Nie naciska i nie straszy.</li>
-            <li data-i18n="no3">Nie udaje prawnika.</li>
-          </ul>
-          <p class="muted" data-i18n="noNote">To narzędzie do podjęcia decyzji — a nie decyzja za Ciebie.</p>
-        </div>
-
-        <div class="glass pad">
-          <h2 data-i18n="whoH2">Dla kogo?</h2>
-          <p class="muted" data-i18n="whoLead">
-            Dla osób, które mieszkają za granicą lub żyją między językami i dostają pisma, których nie chcą źle zrozumieć.
-          </p>
-
-          <div class="badges" aria-label="Supported languages">
-            <span class="badge">PL</span>
-            <span class="badge">DE</span>
-            <span class="badge">NL</span>
-            <span class="badge">EN</span>
-          </div>
-
-          <div class="ctaBlock">
-            <a class="btn btnMain" href="https://sense-bridge-production.netlify.app/" data-i18n="ctaOpen2">Otwórz Sense Bridge</a>
-            <a class="btn btnGhost" href="#faq" data-i18n="ctaFaq">FAQ</a>
-          </div>
-
-          <div class="micro" data-i18n="micro">
-            Najlepiej działa, gdy wkleisz tekst 1:1. Jeśli masz PDF — skopiuj treść z dokumentu i wklej.
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="section">
-      <h2>FAQ</h2>
-
-      <details class="faq glass">
-        <summary data-i18n="f1q">Czy to jest porada prawna?</summary>
-        <p data-i18n="f1a">Nie. Sense Bridge pokazuje sens i ryzyka komunikacyjne, ale nie mówi co masz zrobić.</p>
-      </details>
-
-      <details class="faq glass">
-        <summary data-i18n="f2q">Czy zapisujecie moje pisma?</summary>
-        <p data-i18n="f2a">Nie zapisujemy Twoich pism na landing. W aplikacji działamy zgodnie z zasadą minimalnych danych.</p>
-      </details>
-
-      <details class="faq glass">
-        <summary data-i18n="f3q">Po co przełącznik języków?</summary>
-        <p data-i18n="f3a">To tylko język strony (przyciski i opisy). Nie zmienia treści Twojego pisma.</p>
-      </details>
-
-      <details class="faq glass">
-        <summary data-i18n="f4q">Jak wejść do aplikacji?</summary>
-        <p data-i18n="f4a">Kliknij „Otwórz aplikację”. Możesz też zapisać skrót na ekranie telefonu.</p>
-      </details>
-    </section>
-
-    <footer class="foot">
-      <div class="footInner">
-        <div class="footLeft">
-          <div class="name">Sense Bridge</div>
-          <div class="muted" data-i18n="foot1">Most między językami. Spokój zamiast presji.</div>
-        </div>
-
-        <div class="footRight">
-          <a class="link" href="https://sense-bridge-production.netlify.app/" data-i18n="footOpen">Otwórz aplikację</a>
-          <span class="dotSep">•</span>
-          <span class="muted" data-i18n="foot2">© IM</span>
-        </div>
-      </div>
-    </footer>
-  </main>
-
-  <script src="lang.js"></script>
+<script src="lang.js"></script>
 </body>
 </html>
